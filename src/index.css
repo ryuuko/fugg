@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'haxr';
+	src: url('haxrcorpttf.ttf');
+}
+
+html {
+	background: url('images/bg.jpg') #f46f70 no-repeat;
+	background-size: 60%;
+	background-position: 90% -70%;
+	font-family: 'haxr';
+}
+
+#main {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 50;
+	left: 0; right: 732;
+
+	height: 216px;
+	width: 356px;
+
+	background: #fff;
+
+	border: 2px solid #000;
+}
+
+#img {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 50;
+	left: 0; right: 0;
+
+	height: 216px;
+	width: 356px;
+
+	background-size: 100%;
+
+	border: 2px solid #000;
+}
+
+#search {
+	position: absolute;
+	margin: auto;
+	top: 204; bottom: 0;
+	left: 0; right: 0;
+
+	height: 20px;
+	width: 360px;
+
+	background: #fff;
+
+	border: 2px solid #000;
+
+	font-family: 'haxr';
+
+	font-size: 16px;
+	text-align: center;
+}
+
+#notes {
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 50;
+	left: 732; right: 0;
+
+	height: 216px;
+	width: 356px;
+
+	background: #fff;
+
+	border: 2px solid #000;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: -10;
+}
+
+#text {
+	padding-top: 0px;
+	margin-left: 22px;
+	margin-right: 12px;
+}
+
+
+li {
+	display: inline;
+	padding-left: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	transition: 0.2s;
+}
+
+a:hover {
+	color: #ffa4c9;
+}
