@@ -4,7 +4,7 @@
 }
 
 html {
-	background: url('images/bg.jpg') #f46f70 no-repeat;
+	background: url #f46f70 no-repeat;
 	background-size: 100%;
 	background-position: 50% 0%;
 	font-family: 'haxr';
